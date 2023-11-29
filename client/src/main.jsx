@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       domain="dev-paczqfoazon7jk64.us.auth0.com"
       clientId="9YLH7hCJu5uAVygaWwCgY3We6DwdCDXI"
       authorizationParams={{
-        redirect_uri: "http://localhost:5173",
+        redirect_uri: "https://fsd-mini-project.vercel.app",
         audience: "http://localhost:8000/",
       }}
       scope="openid profile email"
