@@ -18,7 +18,7 @@ const PropertyCard = ({ card }) => {
         <span>{card.price}</span>
       </span>
       <span className="primaryText">
-        {truncate(card.title, { length: 15 })}
+        {truncate(card.title, { length: 20 })}
       </span>
       <span className="secondaryText">
         {truncate(card.description, { length: 80 })}
